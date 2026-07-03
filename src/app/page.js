@@ -59,6 +59,7 @@ const topics = [
   { cat: 'Agri-finance', title: 'KharifCast: Monsoon crop advisory and SDEs for lending', date: '30 Jun 2026', slug: 'kharifcast' },
   { cat: 'ESG & CSR', title: 'Comparative Analysis of CSR & ESG Impacts', date: '18 Jun 2026', slug: 'csr-esg' },
   { cat: 'Sustainable Finance', title: 'Sustainable Corporate Finance — A Second-Best Path', date: '12 Jun 2026', slug: 'sustainable-finance' },
+  { cat: 'Field Notes', title: 'Research Notes: Tracking commodity markets via spatial emission footprints', date: '14 Mar 2026', slug: 'emissions-tracking' },
 ];
 
 export default function Home() {
