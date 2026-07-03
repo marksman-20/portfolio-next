@@ -20,7 +20,7 @@ export default function SustainableFinanceBlog() {
           In an era where the world struggles with sustainability challenges and political fragmentation, achieving a unified global corporate purpose is incredibly difficult. This paper argues that a combination of <strong>strategic green industrial policies</strong> by major economies and <strong>robust climate litigation</strong> provides the most viable &quot;second-best&quot; solution for advancing global sustainability.
         </p>
 
-        <Image src="/images/finance.jpg" alt="Global satellite data visualization" width={800} height={400} className={styles.heroImage} />
+        <Image src="/images/extracted/finance_page5_4.jpeg" alt="Global satellite data visualization" width={800} height={400} className={styles.heroImage} />
 
         <h2 className="display">Green Industrial Policies as a Catalyst</h2>
         <p>
@@ -35,7 +35,7 @@ export default function SustainableFinanceBlog() {
           Climate litigation acts symbiotically with green policies. Successful lawsuits—like <em>Milieudefensie v. Shell</em> in the Netherlands, which mandated a 45% reduction in CO2 emissions by 2030—send powerful signals to corporations. Landmark cases are establishing that government inaction on climate change constitutes a human rights violation, compelling companies to account for their Scope 3 emissions.
         </p>
 
-        <Image src="/images/siterisk.jpg" alt="Satellite imagery mapping urban areas" width={800} height={400} className={styles.inlineImage} />
+        <Image src="/images/extracted/finance_page5_8.jpeg" alt="Satellite imagery mapping urban areas" width={800} height={400} className={styles.inlineImage} />
 
         <h2 className="display">Satellite Imagery: Evidence for Accountability</h2>
         <p>

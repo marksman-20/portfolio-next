@@ -20,7 +20,7 @@ export default function CSRESGBlog() {
           This research compares the Corporate Social Responsibility (CSR) and Environmental, Social, and Governance (ESG) initiatives of Tata Steel Jamshedpur and Reliance Jamnagar Refinery. We examine CSR expenditure, local community impacts, environmental performance (Scope 1, 2, 3 emissions), social contributions to education and health, and how governance board composition influences CSR.
         </p>
 
-        <Image src="/images/csr.jpg" alt="Industrial Plant Satellite View" width={800} height={400} className={styles.heroImage} />
+        <Image src="/images/extracted/csr_page8_1.png" alt="Industrial Plant Satellite View" width={800} height={400} className={styles.heroImage} />
 
         <h2 className="display">CSR Spend Comparison</h2>
         <p>

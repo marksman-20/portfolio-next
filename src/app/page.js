@@ -75,7 +75,7 @@ export default function Home() {
             {/* CSR vs ESG Blog */}
             <div className={styles.card}>
               <div className={styles.cardImageWrapper}>
-                <Image src="/images/csr.jpg" alt="CSR vs ESG" fill className={styles.cardImage} />
+                <Image src="/images/extracted/csr_page8_1.png" alt="CSR vs ESG" fill className={styles.cardImage} />
               </div>
               <div className={styles.cardContent}>
                 <div className={styles.cardTags}>
@@ -95,7 +95,7 @@ export default function Home() {
             {/* Sustainable Finance Blog */}
             <div className={styles.card}>
               <div className={styles.cardImageWrapper}>
-                <Image src="/images/finance.jpg" alt="Corporate Finance" fill className={styles.cardImage} />
+                <Image src="/images/extracted/finance_page5_4.jpeg" alt="Corporate Finance" fill className={styles.cardImage} />
               </div>
               <div className={styles.cardContent}>
                 <div className={styles.cardTags}>
