@@ -31,9 +31,9 @@ export default function CSRESGBlog() {
         { value: '08 Apr 2025', label: 'Published' },
         { value: '13 pages', label: 'Length' },
       ]}
-      hero="/images/illustrations/csr-hero.svg"
+      hero="/portfolio-next/images/illustrations/csr-hero.svg"
       toc={toc}
-      doc="/assets/BEV.pdf"
+      doc="/portfolio-next/assets/BEV.pdf"
       docLabel="Download BEV.pdf"
     >
       <section id="intro">
@@ -96,7 +96,7 @@ export default function CSRESGBlog() {
 
         <figure className={styles.figure}>
           <Image
-            src="/images/illustrations/csr-spend.svg"
+            src="/portfolio-next/images/illustrations/csr-spend.svg"
             alt="CSR spend comparison: Tata Steel Rs 481 crore vs Reliance Rs 1,592 crore"
             width={800}
             height={460}
@@ -140,7 +140,7 @@ export default function CSRESGBlog() {
 
         <figure className={styles.figure}>
           <Image
-            src="/images/illustrations/csr-emissions.svg"
+            src="/portfolio-next/images/illustrations/csr-emissions.svg"
             alt="Estimated CO2e emissions: Tata Steel Jamshedpur 24.3 Mt vs Reliance Jamnagar 32.38 Mt"
             width={800}
             height={460}
@@ -192,7 +192,7 @@ export default function CSRESGBlog() {
 
         <figure className={styles.figure}>
           <Image
-            src="/images/illustrations/csr-social.svg"
+            src="/portfolio-next/images/illustrations/csr-social.svg"
             alt="Social impact: Tata reaches 1.4 million lives, Reliance operates a 3,000-acre Vantara project"
             width={800}
             height={460}
@@ -243,7 +243,7 @@ export default function CSRESGBlog() {
 
         <figure className={styles.figure}>
           <Image
-            src="/images/illustrations/csr-governance.svg"
+            src="/portfolio-next/images/illustrations/csr-governance.svg"
             alt="Governance feedback loop: board diversity influences CSR strategy influences disclosure"
             width={800}
             height={460}

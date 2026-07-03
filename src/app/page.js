@@ -11,7 +11,7 @@ const projects = [
     title: 'SiteRisk.io',
     summary:
       'Bank-ready physical climate risk for Indian properties — GEV + MCMC on ERA5, GloFAS and CMIP6. Built for the lending desk, not the dashboard.',
-    image: '/images/siterisk.jpg',
+    image: '/portfolio-next/images/siterisk.jpg',
     tags: ['Climate risk', 'ERA5', 'GloFAS', 'Railway'],
   },
   {
@@ -21,7 +21,7 @@ const projects = [
     title: 'KharifCast',
     summary:
       'Monsoon crop advisory for agri-lenders. District-level risk scores from an OU-jump SDE ensemble, calibrated against IMD station data.',
-    image: '/images/kharifcast.jpg',
+    image: '/portfolio-next/images/kharifcast.jpg',
     tags: ['Agri-finance', 'MCMC', 'IMD', 'Vercel'],
   },
   {
@@ -30,7 +30,7 @@ const projects = [
     title: 'Comparative Analysis — CSR & ESG Impacts',
     summary:
       'A side-by-side study of Tata Steel Jamshedpur and Reliance Jamnagar Refinery. Spend, emissions, social footprint, governance, and what the numbers hide.',
-    image: '/images/illustrations/csr-hero.svg',
+    image: '/portfolio-next/images/illustrations/csr-hero.svg',
     tags: ['CSR', 'ESG', 'Emissions', 'India industry'],
     doc: 'BEV.pdf',
   },
@@ -40,7 +40,7 @@ const projects = [
     title: 'Sustainable Corporate Finance — A Second-Best Path',
     summary:
       'Why a global corporate purpose is impossible, and why green industrial policy plus climate litigation plus satellite evidence is the only path that survives contact with geopolitics.',
-    image: '/images/illustrations/sf-hero.svg',
+    image: '/portfolio-next/images/illustrations/sf-hero.svg',
     tags: ['Climate litigation', 'IRA', 'CBAM', 'Earth Engine'],
     doc: '2022-5IPM-37_Manas_Pokley.pdf',
   },
