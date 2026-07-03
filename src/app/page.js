@@ -77,7 +77,7 @@ export default function Home() {
           <p className={styles.lede}>
             I build <em>climate systems that can&apos;t lie</em> — risk APIs for lenders,
             satellite-driven ESG evidence, and field-tested advisory models.
-            ISI Kolkata alumnus. Currently shipping in climate-tech.
+            NALSAR alumnus. Currently shipping in climate-tech and ag-finance.
           </p>
           <div className={styles.heroCtas}>
             <Link href="#work" className="btn">See selected work</Link>
