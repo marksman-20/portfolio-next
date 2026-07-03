@@ -2,6 +2,7 @@ import styles from './page.module.css';
 import Link from 'next/link';
 import ProjectCard from './components/ProjectCard';
 import TopicRow from './components/TopicRow';
+import VectorBreak from './components/VectorBreak';
 
 const projects = [
   {
@@ -11,7 +12,7 @@ const projects = [
     title: 'SiteRisk.io',
     summary:
       'Bank-ready physical climate risk for Indian properties — GEV + MCMC on ERA5, GloFAS and CMIP6. Built for the lending desk, not the dashboard.',
-    image: '/portfolio-next/images/siterisk.jpg',
+    image: '/portfolio-next/images/siterisk.jpg?v=2',
     tags: ['Climate risk', 'ERA5', 'GloFAS', 'Railway'],
   },
   {
@@ -21,7 +22,7 @@ const projects = [
     title: 'KharifCast',
     summary:
       'Monsoon crop advisory for agri-lenders. District-level risk scores from an OU-jump SDE ensemble, calibrated against IMD station data.',
-    image: '/portfolio-next/images/kharifcast.jpg',
+    image: '/portfolio-next/images/kharifcast.jpg?v=2',
     tags: ['Agri-finance', 'MCMC', 'IMD', 'Vercel'],
   },
   {
@@ -30,7 +31,7 @@ const projects = [
     title: 'Comparative Analysis — CSR & ESG Impacts',
     summary:
       'A side-by-side study of Tata Steel Jamshedpur and Reliance Jamnagar Refinery. Spend, emissions, social footprint, governance, and what the numbers hide.',
-    image: '/portfolio-next/images/illustrations/csr-hero.svg',
+    image: '/portfolio-next/images/illustrations/csr-hero.svg?v=2',
     tags: ['CSR', 'ESG', 'Emissions', 'India industry'],
     doc: 'BEV.pdf',
   },
@@ -40,17 +41,17 @@ const projects = [
     title: 'Sustainable Corporate Finance — A Second-Best Path',
     summary:
       'Why a global corporate purpose is impossible, and why green industrial policy plus climate litigation plus satellite evidence is the only path that survives contact with geopolitics.',
-    image: '/portfolio-next/images/illustrations/sf-hero.svg',
+    image: '/portfolio-next/images/illustrations/sf-hero.svg?v=2',
     tags: ['Climate litigation', 'IRA', 'CBAM', 'Earth Engine'],
     doc: '2022-5IPM-37_Manas_Pokley.pdf',
   },
 ];
 
 const stats = [
-  { k: '01', label: 'Years building climate systems' },
-  { k: '12', label: 'Research & field projects shipped' },
+  { k: '02', label: 'Years building climate systems' },
+  { k: '4', label: 'Research & field projects shipped' },
   { k: '~50k', label: 'Grid cells modelled in production' },
-  { k: '3', label: 'Live APIs in market' },
+  { k: '2', label: 'Live APIs in market' },
 ];
 
 const topics = [
@@ -92,6 +93,8 @@ export default function Home() {
           </ul>
         </div>
       </section>
+
+      <VectorBreak />
 
       <section id="work" className={styles.section}>
         <div className="container">
@@ -143,6 +146,8 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <VectorBreak />
 
       <section className={styles.section}>
         <div className="container">
