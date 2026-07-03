@@ -22,7 +22,7 @@ export default function SustainableFinanceBlog() {
   return (
     <BlogShell
       crumbs={[{ label: 'Sustainable Finance' }]}
-      tags={['Response paper', 'IPM III', 'Climate litigation', 'GEE', '5IPM-37']}
+      tags={['Climate litigation', 'IRA', 'CBAM', 'Earth Engine']}
       title="Sustainable Corporate Finance — A Second-Best Path"
       lede="In an era of sustainability challenges and political fragmentation, achieving a unified global corporate purpose is impossible. The only path that survives contact with geopolitics is a second-best one: green industrial policy, climate litigation, and satellite-grade evidence."
       meta={[
