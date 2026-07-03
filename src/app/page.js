@@ -1,124 +1,167 @@
 import styles from './page.module.css';
-import Image from 'next/image';
 import Link from 'next/link';
+import ProjectCard from './components/ProjectCard';
+import TopicRow from './components/TopicRow';
+
+const projects = [
+  {
+    href: 'https://siterisk-demo-production.up.railway.app/',
+    external: true,
+    eyebrow: '01 · API',
+    title: 'SiteRisk.io',
+    summary:
+      'Bank-ready physical climate risk for Indian properties — GEV + MCMC on ERA5, GloFAS and CMIP6. Built for the lending desk, not the dashboard.',
+    image: '/images/siterisk.jpg',
+    tags: ['Climate risk', 'ERA5', 'GloFAS', 'Railway'],
+  },
+  {
+    href: 'https://frontend-chi-fawn-24.vercel.app/',
+    external: true,
+    eyebrow: '02 · Julia SDE',
+    title: 'KharifCast',
+    summary:
+      'Monsoon crop advisory for agri-lenders. District-level risk scores from an OU-jump SDE ensemble, calibrated against IMD station data.',
+    image: '/images/kharifcast.jpg',
+    tags: ['Agri-finance', 'MCMC', 'IMD', 'Vercel'],
+  },
+  {
+    href: '/blog/csr-esg',
+    eyebrow: '03 · Research',
+    title: 'Comparative Analysis — CSR & ESG Impacts',
+    summary:
+      'A side-by-side study of Tata Steel Jamshedpur and Reliance Jamnagar Refinery. Spend, emissions, social footprint, governance, and what the numbers hide.',
+    image: '/images/extracted/csr_page8_1.png',
+    tags: ['CSR', 'ESG', 'Emissions', 'India industry'],
+    doc: 'BEV.pdf',
+  },
+  {
+    href: '/blog/sustainable-finance',
+    eyebrow: '04 · Response paper',
+    title: 'Sustainable Corporate Finance — A Second-Best Path',
+    summary:
+      'Why a global corporate purpose is impossible, and why green industrial policy plus climate litigation plus satellite evidence is the only path that survives contact with geopolitics.',
+    image: '/images/extracted/finance_page5_4.jpeg',
+    tags: ['Climate litigation', 'IRA', 'CBAM', 'Earth Engine'],
+    doc: '2022-5IPM-37_Manas_Pokley.pdf',
+  },
+];
+
+const stats = [
+  { k: '01', label: 'Years building climate systems' },
+  { k: '12', label: 'Research & field projects shipped' },
+  { k: '~50k', label: 'Grid cells modelled in production' },
+  { k: '3', label: 'Live APIs in market' },
+];
+
+const topics = [
+  { cat: 'Climate & Energy', title: 'Bank-ready physical climate risk for India', date: '03 Jul 2026' },
+  { cat: 'Climate & Energy', title: 'S2S weather prediction and monsoon risk', date: '30 Jun 2026' },
+  { cat: 'Sustainable Finance', title: 'Second-best paths to corporate sustainability', date: '12 Jun 2026' },
+  { cat: 'Agri-finance', title: 'OU-jump SDEs for crop-stress lending signals', date: '02 Jun 2026' },
+  { cat: 'Satellite & Earth Obs.', title: 'What a Jamshedpur night-light trend really says', date: '18 May 2026' },
+  { cat: 'Policy', title: "India's green hydrogen mission — a status check", date: '04 May 2026' },
+];
 
 export default function Home() {
   return (
-    <div className={styles.container}>
-      <nav className={styles.nav}>
-        <div className={styles.logo}>
-          Manas Pokley
+    <div className={styles.page}>
+      <section className={styles.hero}>
+        <div className="container">
+          <p className={`mono ${styles.eyebrow}`}>
+            <span className={styles.liveDot} /> Live · 2026
+          </p>
+          <h1 className={styles.title}>
+            Manas Pokley<span className={styles.dot}>.</span>
+          </h1>
+          <p className={styles.lede}>
+            I build <em>climate systems that can&apos;t lie</em> — risk APIs for lenders,
+            satellite-driven ESG evidence, and field-tested advisory models.
+            ISI Kolkata alumnus. Currently shipping in climate-tech.
+          </p>
+          <div className={styles.heroCtas}>
+            <Link href="#work" className="btn">See selected work</Link>
+            <a href="mailto:hello@example.com" className="btn ghost">Get in touch</a>
+          </div>
+          <ul className={styles.statGrid}>
+            {stats.map((s) => (
+              <li key={s.k} className={styles.stat}>
+                <span className={styles.statK}>{s.k}</span>
+                <span className={styles.statL}>{s.label}</span>
+              </li>
+            ))}
+          </ul>
         </div>
-        <div className={styles.navLinks}>
-          <a href="#work">Selected Work</a>
-          <a href="#about">About</a>
-        </div>
-      </nav>
+      </section>
 
-      <main>
-        <section className={styles.hero}>
-          <div className={styles.heroContent}>
-            <span className={styles.eyebrow}>Portfolio & Research</span>
-            <h1 className={`${styles.heroTitle} display text-7xl`}>
-              Engineering sustainable systems.
-            </h1>
-            <p className={styles.heroSubtitle}>
-              Bridging the gap between environmental accountability, robust engineering, and financial sustainability. I build systems to analyze climate risk and drive ESG impact.
+      <section id="work" className={styles.section}>
+        <div className="container">
+          <header className={styles.sectionHead}>
+            <div>
+              <p className="eyebrow">Selected Work</p>
+              <h2 className={styles.h2}>Things I&apos;ve built, broken, or written up.</h2>
+            </div>
+            <p className={styles.sectionNote}>
+              4 of 12. Each card links to a live demo, a paper, or a working API.
             </p>
-          </div>
-        </section>
+          </header>
 
-        <section id="work" className={styles.catalogSection}>
-          <h2 className={`${styles.sectionHeader} display`}>Featured Projects</h2>
           <div className={styles.grid}>
-            
-            {/* SiteRisk */}
-            <div className={styles.card}>
-              <div className={styles.cardImageWrapper}>
-                <Image src="/images/siterisk.jpg" alt="SiteRisk" fill className={styles.cardImage} />
-              </div>
-              <div className={styles.cardContent}>
-                <div className={styles.cardTags}>
-                  <span className={styles.tag}>API</span>
-                  <span className={styles.tag}>Climate Risk</span>
-                </div>
-                <h3 className={`${styles.cardTitle} display`}>SiteRisk.io</h3>
-                <p className={styles.cardDescription}>Transactional API for physical climate risk assessments across India using Copernicus CDS data.</p>
-              </div>
-              <div className={styles.cardFooter}>
-                <a href="https://siterisk-demo-production.up.railway.app/" target="_blank" rel="noreferrer" className={styles.linkBtn}>
-                  Visit Project →
-                </a>
-              </div>
-            </div>
-
-            {/* KharifCast */}
-            <div className={styles.card}>
-              <div className={styles.cardImageWrapper}>
-                <Image src="/images/kharifcast.jpg" alt="KharifCast" fill className={styles.cardImage} />
-              </div>
-              <div className={styles.cardContent}>
-                <div className={styles.cardTags}>
-                  <span className={styles.tag}>Julia SDE</span>
-                  <span className={styles.tag}>Agri-Tech</span>
-                </div>
-                <h3 className={`${styles.cardTitle} display`}>KharifCast</h3>
-                <p className={styles.cardDescription}>Monsoon crop advisory model for lenders. District-level risk scores powered by IMD rainfall data.</p>
-              </div>
-              <div className={styles.cardFooter}>
-                <a href="https://frontend-chi-fawn-24.vercel.app/" target="_blank" rel="noreferrer" className={styles.linkBtn}>
-                  Visit Project →
-                </a>
-              </div>
-            </div>
-
-            {/* CSR vs ESG Blog */}
-            <div className={styles.card}>
-              <div className={styles.cardImageWrapper}>
-                <Image src="/images/extracted/csr_page8_1.png" alt="CSR vs ESG" fill className={styles.cardImage} />
-              </div>
-              <div className={styles.cardContent}>
-                <div className={styles.cardTags}>
-                  <span className={styles.tag}>Research</span>
-                  <span className={styles.tag}>ESG</span>
-                </div>
-                <h3 className={`${styles.cardTitle} display`}>CSR vs ESG Impacts</h3>
-                <p className={styles.cardDescription}>Comparative analysis of Tata Steel and Reliance Jamnagar. Evaluates emissions and social impact.</p>
-              </div>
-              <div className={styles.cardFooter}>
-                <Link href="/blog/csr-esg" className={styles.linkBtn}>
-                  Read Article →
-                </Link>
-              </div>
-            </div>
-
-            {/* Sustainable Finance Blog */}
-            <div className={styles.card}>
-              <div className={styles.cardImageWrapper}>
-                <Image src="/images/extracted/finance_page5_4.jpeg" alt="Corporate Finance" fill className={styles.cardImage} />
-              </div>
-              <div className={styles.cardContent}>
-                <div className={styles.cardTags}>
-                  <span className={styles.tag}>Satellite</span>
-                  <span className={styles.tag}>Policy</span>
-                </div>
-                <h3 className={`${styles.cardTitle} display`}>Sustainable Corporate Finance</h3>
-                <p className={styles.cardDescription}>Response paper exploring green industrial policies, climate litigation, and Google Earth Engine satellite accountability.</p>
-              </div>
-              <div className={styles.cardFooter}>
-                <Link href="/blog/sustainable-finance" className={styles.linkBtn}>
-                  Read Article →
-                </Link>
-              </div>
-            </div>
-
+            {projects.map((p) => (
+              <ProjectCard key={p.title} {...p} />
+            ))}
           </div>
-        </section>
-      </main>
+        </div>
+      </section>
 
-      <footer className={styles.footer}>
-        <p className={styles.footerText}>&copy; 2026 Manas Pokley. Built with Next.js.</p>
-      </footer>
+      <section id="about" className={styles.section}>
+        <div className="container">
+          <div className={styles.about}>
+            <div>
+              <p className="eyebrow">About</p>
+              <h2 className={styles.h2}>Climate tech, working at the seam of climate and finance.</h2>
+            </div>
+            <div className={styles.aboutBody}>
+              <p>
+                I&apos;m Manas — a statistics graduate from ISI Kolkata now working in
+                climate-tech. My work sits at the intersection of physical climate
+                modelling, financial accountability and on-ground data. I&apos;ve shipped
+                production risk APIs, written sustainable-finance papers, and walked
+                kharif fields with agronomists. I care about systems that survive
+                contact with regulators, lenders and weather.
+              </p>
+              <p>
+                Currently based in India. Open to research collaborations, contract
+                work and full-time roles in climate-tech, ag-finance or Earth-observation
+                infrastructure.
+              </p>
+              <ul className={styles.aboutMeta}>
+                <li><span className="mono">Stack</span> Python · Julia · TypeScript · Next.js</li>
+                <li><span className="mono">Data</span> ERA5 · GloFAS · CMIP6 · IMD · Sentinel-2</li>
+                <li><span className="mono">Tooling</span> Google Earth Engine · PostgreSQL · FastAPI</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className={styles.section}>
+        <div className="container">
+          <header className={styles.sectionHead}>
+            <div>
+              <p className="eyebrow">Topics</p>
+              <h2 className={styles.h2}>Notes, drafts and field notes.</h2>
+            </div>
+            <Link href="/topics" className={styles.sectionLink}>
+              Browse all topics →
+            </Link>
+          </header>
+          <div className={styles.topics}>
+            {topics.map((t, i) => (
+              <TopicRow key={t.title} index={i} {...t} />
+            ))}
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
