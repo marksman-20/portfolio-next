@@ -1,0 +1,123 @@
+.card {
+  border-right: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  display: flex;
+  flex-direction: column;
+  background: var(--paper);
+  transition: background 0.2s ease;
+}
+
+.card:hover {
+  background: var(--cream);
+}
+
+.imageWrap {
+  position: relative;
+  display: block;
+  aspect-ratio: 16 / 10;
+  overflow: hidden;
+  border-bottom: 1px solid var(--line);
+}
+
+.image {
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.card:hover .image {
+  transform: scale(1.03);
+}
+
+.viewBadge {
+  position: absolute;
+  left: 16px;
+  bottom: 16px;
+  font-family: var(--mono);
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  background: var(--ink);
+  color: var(--paper);
+  padding: 6px 10px;
+  border-radius: 999px;
+  opacity: 0;
+  transform: translateY(6px);
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.card:hover .viewBadge {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.body {
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  flex-grow: 1;
+}
+
+.eyebrow {
+  color: var(--muted);
+  font-size: 11px;
+}
+
+.titleLink {
+  display: block;
+}
+
+.title {
+  font-family: var(--serif);
+  font-size: 28px;
+  line-height: 1.1;
+  letter-spacing: -0.01em;
+  font-weight: 500;
+  color: var(--ink);
+  transition: color 0.15s ease;
+}
+
+.titleLink:hover .title {
+  color: var(--accent);
+}
+
+.summary {
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--muted);
+  max-width: 56ch;
+  flex-grow: 1;
+}
+
+.foot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid var(--line);
+  padding-top: 16px;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.tags {
+  list-style: none;
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.tag {
+  font-family: var(--mono);
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  border: 1px solid var(--line-strong);
+  border-radius: 999px;
+  padding: 3px 9px;
+  color: var(--ink);
+}
+
+.doc {
+  color: var(--muted);
+  font-size: 10px;
+}
