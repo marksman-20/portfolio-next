@@ -2,7 +2,6 @@ import styles from './page.module.css';
 import Link from 'next/link';
 import ProjectCard from './components/ProjectCard';
 import TopicRow from './components/TopicRow';
-import VectorBreak from './components/VectorBreak';
 
 const projects = [
   {
@@ -93,7 +92,7 @@ export default function Home() {
         </div>
       </section>
 
-      <VectorBreak />
+
 
       <section id="work" className={styles.section}>
         <div className="container">
@@ -139,7 +138,7 @@ export default function Home() {
         </div>
       </section>
 
-      <VectorBreak />
+
 
       <section className={styles.section}>
         <div className="container">
