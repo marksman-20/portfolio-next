@@ -40,9 +40,9 @@ export default function Footer() {
               Building climate systems that can&apos;t lie.
             </h2>
             <p className={styles.leadBody}>
-              Engineer working at the seam of climate risk, sustainable finance
-              and on-ground data. Available for research collaborations,
-              contract work and full-time roles in climate tech.
+              Climate tech, working at the seam of climate and finance.
+              Available for research collaborations, contract work and 
+              full-time roles in climate-tech or ag-finance.
             </p>
             <Link href="mailto:hello@example.com" className={styles.cta}>
               Get in touch

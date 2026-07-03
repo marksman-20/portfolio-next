@@ -123,22 +123,15 @@ export default function Home() {
             </div>
             <div className={styles.aboutBody}>
               <p>
-                I&apos;m Manas — a statistics graduate from ISI Kolkata now working in
-                climate-tech. My work sits at the intersection of physical climate
-                modelling, financial accountability and on-ground data. I&apos;ve shipped
-                production risk APIs, written sustainable-finance papers, and walked
-                kharif fields with agronomists. I care about systems that survive
-                contact with regulators, lenders and weather.
+                I&apos;m Manas — a business graduate from NALSAR University of Law now working in climate-tech and ag-finance. My work sits at the intersection of physical climate risk, financial accountability and on-ground agricultural data. I&apos;ve shipped production risk APIs, built credibility-weighted actuarial pipelines, and worked with agronomists on kharif crop data. I care about systems that survive contact with regulators, lenders and weather.
               </p>
               <p>
-                Currently based in India. Open to research collaborations, contract
-                work and full-time roles in climate-tech, ag-finance or Earth-observation
-                infrastructure.
+                Currently based in India. Open to research collaborations, contract work and full-time roles in climate-tech, ag-finance or product/dev tooling.
               </p>
               <ul className={styles.aboutMeta}>
-                <li><span className="mono">Stack</span> Python · Julia · TypeScript · Next.js</li>
-                <li><span className="mono">Data</span> ERA5 · GloFAS · CMIP6 · IMD · Sentinel-2</li>
-                <li><span className="mono">Tooling</span> Google Earth Engine · PostgreSQL · FastAPI</li>
+                <li><span className="mono">Stack</span> Python · TypeScript · Next.js</li>
+                <li><span className="mono">Data</span> IMDLIB · CHIRPS · MODIS NDVI · ICRISAT · Agmarknet · NFHS-5</li>
+                <li><span className="mono">Tooling</span> PostgreSQL · FastAPI · Claude Code</li>
               </ul>
             </div>
           </div>
