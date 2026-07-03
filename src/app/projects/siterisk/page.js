@@ -79,6 +79,7 @@ const sections = [
           </li>
         </ol>
         <div className={styles.codeBlock}>
+          <pre><code>
 {`# 1) Submit a location
 curl -X POST https://api.siterisk.io/v1/risk \\
   -H "Content-Type: application/json" \\
@@ -96,6 +97,7 @@ curl -X POST https://api.siterisk.io/v1/risk \\
     "ssp585_2050_delta_c": 1.8
   }
 }`}
+          </code></pre>
         </div>
       </>
     ),

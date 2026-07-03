@@ -85,6 +85,7 @@ const sections = [
           </li>
         </ol>
         <div className={styles.codeBlock}>
+          <pre><code>
 {`# 1) Configure an advisory
 POST /api/v1/advisory
 {
@@ -106,6 +107,7 @@ POST /api/v1/advisory
     "p10": [...], "p50": [...], "p90": [...]
   }
 }`}
+          </code></pre>
         </div>
       </>
     ),
@@ -151,6 +153,7 @@ POST /api/v1/advisory
           Poisson-driven jumps:
         </p>
         <div className={styles.codeBlock}>
+          <pre><code>
 {`dX_t = θ(μ - X_t) dt + σ dW_t + J_t dN_t
 
 # θ  : mean-reversion speed          (fit by MCMC)
@@ -158,6 +161,7 @@ POST /api/v1/advisory
 # σ  : diffusion coefficient         (fit by MCMC)
 # J  : jump magnitude (rain burst)   (exponential, fit by MLE)
 # N  : Poisson process, intensity λ  (fit by MCMC)`}
+          </code></pre>
         </div>
         <p>
           MCMC convergence is checked via R̂ and ESS. The drift
