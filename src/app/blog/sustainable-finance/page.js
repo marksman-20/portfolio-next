@@ -462,11 +462,6 @@ export default function SustainableFinanceBlog() {
           <li data-n="1">Nurgozhayeva, R., &amp; Puchniak, D. W. (2020). <em>The globalization of corporate purpose</em>. Stanford Law Review.</li>
           <li data-n="2">Stallman, H. W. (1965). Numerical analysis of regional water levels. <em>Journal of Geophysical Research</em>, 70(20), 5195–5204.</li>
           <li data-n="3">Gorelick, N., Hancher, M., Dixon, M., Ilyushchenko, S., Thau, D., &amp; Moore, R. (2017). Google Earth Engine: Planetary-scale geospatial analysis for everyone. <em>Remote Sensing of Environment</em>.</li>
-          <li data-n="4">Milieudefensie v. Royal Dutch Shell PLC, District Court of The Hague, C/09/571932 (2021).</li>
-          <li data-n="5">Urgenda Foundation v. State of the Netherlands, Supreme Court of the Netherlands (2019).</li>
-          <li data-n="6">KlimSeniorinnen v. Switzerland, ECHR (2024).</li>
-          <li data-n="7">US Inflation Reduction Act of 2022, Public Law 117-169.</li>
-          <li data-n="8">EU Carbon Border Adjustment Mechanism, Regulation (EU) 2023/956.</li>
         </ol>
       </section>
 
