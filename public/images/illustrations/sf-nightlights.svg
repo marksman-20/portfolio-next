@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" font-family="Inter, system-ui, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#0a0a0a"/>
+      <stop offset="1" stop-color="#1a1a1a"/>
+    </linearGradient>
+    <radialGradient id="hot" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#fff5b8" stop-opacity="0.95"/>
+      <stop offset="0.4" stop-color="#ff8c1a" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#ff5b1f" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="med" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#ff8c1a" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#ff5b1f" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="cold" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#1f4d8a" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#0a0a0a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="460" fill="url(#bg)"/>
+
+  <g font-family="ui-monospace, SF Mono, Menlo, monospace" font-size="10" fill="#faf9f6" letter-spacing="1.5">
+    <text x="40" y="36" font-weight="600">FIG 1 · NOAA/VIIRS NIGHT-LIGHT INTENSITY</text>
+    <text x="40" y="52" fill="rgba(250,249,246,0.55)">JAMSHEDPUR STEEL BELT · 2015 → 2023 (COMPOSITED)</text>
+    <text x="760" y="36" text-anchor="end" fill="rgba(250,249,246,0.55)">DARK ▸ BRIGHT</text>
+  </g>
+
+  <g transform="translate(60,90)">
+    <rect width="680" height="320" fill="none" stroke="rgba(250,249,246,0.12)" stroke-width="1"/>
+    <line x1="0" y1="160" x2="680" y2="160" stroke="rgba(250,249,246,0.08)" stroke-dasharray="2 4"/>
+    <line x1="340" y1="0" x2="340" y2="320" stroke="rgba(250,249,246,0.08)" stroke-dasharray="2 4"/>
+
+    <g>
+      <circle cx="120" cy="180" r="22" fill="url(#cold)"/>
+      <circle cx="180" cy="200" r="14" fill="url(#cold)"/>
+      <circle cx="240" cy="160" r="16" fill="url(#cold)"/>
+      <circle cx="320" cy="220" r="10" fill="url(#cold)"/>
+    </g>
+
+    <g>
+      <circle cx="400" cy="160" r="40" fill="url(#med)"/>
+      <circle cx="450" cy="140" r="28" fill="url(#med)"/>
+      <circle cx="500" cy="180" r="20" fill="url(#med)"/>
+    </g>
+
+    <g>
+      <circle cx="560" cy="150" r="60" fill="url(#hot)"/>
+      <circle cx="600" cy="180" r="42" fill="url(#hot)"/>
+      <circle cx="640" cy="140" r="32" fill="url(#hot)"/>
+      <circle cx="570" cy="200" r="20" fill="url(#hot)"/>
+    </g>
+
+    <g font-family="ui-monospace" font-size="9" fill="rgba(250,249,246,0.7)">
+      <text x="40" y="30">2015</text>
+      <text x="320" y="30">2020</text>
+      <text x="600" y="30">2023</text>
+    </g>
+
+    <g font-family="ui-monospace" font-size="9" fill="rgba(250,249,246,0.55)">
+      <line x1="120" y1="200" x2="120" y2="220" stroke="rgba(250,249,246,0.4)"/>
+      <text x="120" y="234" text-anchor="middle">TATA</text>
+      <text x="120" y="248" text-anchor="middle">PLANT</text>
+    </g>
+  </g>
+</svg>

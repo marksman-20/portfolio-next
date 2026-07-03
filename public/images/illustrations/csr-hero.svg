@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#0a0a0a"/>
+      <stop offset="0.5" stop-color="#1a1a1a"/>
+      <stop offset="1" stop-color="#2a1a0a"/>
+    </linearGradient>
+    <radialGradient id="smoke" cx="50%" cy="100%" r="80%">
+      <stop offset="0" stop-color="#bf3e22" stop-opacity="0.3"/>
+      <stop offset="0.5" stop-color="#ff5b1f" stop-opacity="0.1"/>
+      <stop offset="1" stop-color="#0a0a0a" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grain" width="3" height="3" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.5" fill="rgba(250,249,246,0.04)"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="600" fill="url(#sky)"/>
+  <rect width="1200" height="600" fill="url(#grain)"/>
+
+  <g>
+    <rect x="0" y="420" width="1200" height="180" fill="#0a0a0a"/>
+    <g transform="translate(150,360)" fill="#1a1a1a" stroke="rgba(250,249,246,0.1)" stroke-width="1">
+      <rect x="0" y="0" width="60" height="120"/>
+      <rect x="70" y="-20" width="40" height="140"/>
+      <rect x="120" y="10" width="80" height="110"/>
+      <rect x="210" y="-30" width="35" height="150"/>
+      <rect x="255" y="0" width="55" height="120"/>
+      <rect x="320" y="-10" width="70" height="130"/>
+    </g>
+    <g transform="translate(720,340)" fill="#1a1a1a" stroke="rgba(250,249,246,0.1)" stroke-width="1">
+      <rect x="0" y="0" width="50" height="140"/>
+      <rect x="60" y="-20" width="80" height="160"/>
+      <rect x="150" y="0" width="60" height="140"/>
+      <rect x="220" y="-30" width="40" height="170"/>
+      <rect x="270" y="10" width="70" height="130"/>
+    </g>
+
+    <g fill="none" stroke="rgba(255,91,31,0.4)" stroke-width="2" opacity="0.7">
+      <path d="M 250 360 Q 270 320 290 340 Q 310 360 330 320"/>
+      <path d="M 750 340 Q 770 300 790 320 Q 810 340 830 300"/>
+    </g>
+
+    <g fill="#ff5b1f" opacity="0.8">
+      <circle cx="290" cy="340" r="3"/>
+      <circle cx="790" cy="320" r="3"/>
+    </g>
+  </g>
+
+  <ellipse cx="600" cy="600" rx="900" ry="200" fill="url(#smoke)"/>
+
+  <g font-family="ui-monospace, SF Mono, Menlo, monospace" font-size="11" fill="rgba(250,249,246,0.4)">
+    <text x="60" y="60">22.5726° N, 86.1841° E · JAMSHEDPUR</text>
+    <text x="1140" y="60" text-anchor="end">JAMSHEDPUR STEEL BELT · INDIA</text>
+  </g>
+</svg>
