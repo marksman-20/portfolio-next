@@ -22,17 +22,15 @@ export default function SustainableFinanceBlog() {
   return (
     <BlogShell
       crumbs={[{ label: 'Sustainable Finance' }]}
-      tags={['Climate litigation', 'IRA', 'CBAM', 'Earth Engine']}
+      tags={['Climate Finance', 'Industrial Policy', 'Remote Sensing', 'Earth Engine']}
       title="Sustainable Corporate Finance — A Second-Best Path"
       lede="In an era of sustainability challenges and political fragmentation, achieving a unified global corporate purpose is impossible. The only path that survives contact with geopolitics is a second-best one: green industrial policy, climate litigation, and satellite-grade evidence."
       meta={[
         { value: 'Manas Pokley', label: 'Author' },
-        { value: 'Roll No. 2022-5IPM-37', label: 'Course ID' },
-        { value: 'Sustainable Corporate Finance', label: 'Course' },
         { value: 'Oct 2024 – Jan 2025', label: 'Term' },
         { value: '2,486 words', label: 'Length' },
       ]}
-      hero="/portfolio-next/images/extracted/finance_collage.jpg?v=3"
+      hero="/portfolio-next/images/extracted/finance_page5_8.jpeg?v=4"
       toc={toc}
       doc="/portfolio-next/assets/2022-5IPM-37_Manas_Pokley.pdf"
       docLabel="Download 2022-5IPM-37_Manas_Pokley.pdf"
@@ -460,8 +458,8 @@ export default function SustainableFinanceBlog() {
         <h3>References</h3>
         <ol className={styles.citeList}>
           <li data-n="1">Nurgozhayeva, R., &amp; Puchniak, D. W. (2020). <em>The globalization of corporate purpose</em>. Stanford Law Review.</li>
-          <li data-n="2">Stallman, H. W. (1965). Numerical analysis of regional water levels. <em>Journal of Geophysical Research</em>, 70(20), 5195–5204.</li>
-          <li data-n="3">Gorelick, N., Hancher, M., Dixon, M., Ilyushchenko, S., Thau, D., &amp; Moore, R. (2017). Google Earth Engine: Planetary-scale geospatial analysis for everyone. <em>Remote Sensing of Environment</em>.</li>
+          <li data-n="2">Stallman, H. W. (1965). <em>Numerical analysis of regional water levels</em>. Journal of Geophysical Research, 70(20), 5195–5204.</li>
+          <li data-n="3">Gorelick, N., Hancher, M., Dixon, M., Ilyushchenko, S., Thau, D., &amp; Moore, R. (2017). <em>Google Earth Engine: Planetary-scale geospatial analysis for everyone</em>. Remote Sensing of Environment.</li>
         </ol>
       </section>
 

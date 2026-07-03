@@ -31,7 +31,7 @@ const projects = [
     title: 'Comparative Analysis — CSR & ESG Impacts',
     summary:
       'A side-by-side study of Tata Steel Jamshedpur and Reliance Jamnagar Refinery. Spend, emissions, social footprint, governance, and what the numbers hide.',
-    image: '/portfolio-next/images/extracted/bev/bev_page4_1.png?v=3',
+    image: '/portfolio-next/images/extracted/bev/bev_page8_1.png?v=4',
     tags: ['CSR', 'ESG', 'Emissions', 'India industry'],
     doc: 'BEV.pdf',
   },
@@ -41,7 +41,7 @@ const projects = [
     title: 'Sustainable Corporate Finance — A Second-Best Path',
     summary:
       'Why a global corporate purpose is impossible, and why green industrial policy plus climate litigation plus satellite evidence is the only path that survives contact with geopolitics.',
-    image: '/portfolio-next/images/extracted/finance_collage.jpg?v=3',
+    image: '/portfolio-next/images/extracted/finance_page5_8.jpeg?v=4',
     tags: ['Climate litigation', 'IRA', 'CBAM', 'Earth Engine'],
     doc: '2022-5IPM-37_Manas_Pokley.pdf',
   },
