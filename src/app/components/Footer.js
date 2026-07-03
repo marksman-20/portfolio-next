@@ -6,7 +6,7 @@ const groups = [
     title: 'Projects',
     items: [
       { label: 'SiteRisk.io', href: 'https://siterisk-demo-production.up.railway.app/' },
-      { label: 'KharifCast', href: 'https://frontend-chi-fawn-24.vercel.app/' },
+      { label: 'KharifCast', href: 'https://kharifcast-production.up.railway.app/' },
       { label: 'CSR vs ESG study', href: '/blog/csr-esg' },
       { label: 'Sustainable finance paper', href: '/blog/sustainable-finance' },
     ],

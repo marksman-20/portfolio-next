@@ -16,14 +16,14 @@ const projects = [
     tags: ['Climate risk', 'ERA5', 'GloFAS', 'Railway'],
   },
   {
-    href: 'https://frontend-chi-fawn-24.vercel.app/',
+    href: 'https://kharifcast-production.up.railway.app/',
     external: true,
     eyebrow: '02 · Julia SDE',
     title: 'KharifCast',
     summary:
       'Monsoon crop advisory for agri-lenders. District-level risk scores from an OU-jump SDE ensemble, calibrated against IMD station data.',
     image: '/portfolio-next/images/kharifcast.jpg?v=2',
-    tags: ['Agri-finance', 'MCMC', 'IMD', 'Vercel'],
+    tags: ['Agri-finance', 'MCMC', 'IMD', 'Railway'],
   },
   {
     href: '/blog/csr-esg',
