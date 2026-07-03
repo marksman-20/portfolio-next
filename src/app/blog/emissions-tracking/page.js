@@ -1,5 +1,5 @@
 import BlogShell from '../../components/BlogShell';
-import styles from '../BlogPage.module.css';
+import styles from '../../components/blog.module.css';
 
 export default function EmissionsTrackingBlog() {
   const toc = [

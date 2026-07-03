@@ -1,6 +1,6 @@
 import BlogShell from '../../components/BlogShell';
 import Image from 'next/image';
-import styles from '../BlogPage.module.css';
+import styles from '../../components/blog.module.css';
 
 export default function SiteRiskBlog() {
   const toc = [
