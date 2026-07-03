@@ -22,9 +22,9 @@ const groups = [
   {
     title: 'Elsewhere',
     items: [
-      { label: 'GitHub', href: 'https://github.com/' },
-      { label: 'LinkedIn', href: 'https://www.linkedin.com/' },
-      { label: 'Email', href: 'mailto:hello@example.com' },
+      { label: 'GitHub', href: 'https://github.com/marksman-20' },
+      { label: 'LinkedIn', href: 'https://www.linkedin.com/in/manas-pokley/' },
+      { label: 'Twitter', href: 'https://twitter.com/' },
     ],
   },
 ];

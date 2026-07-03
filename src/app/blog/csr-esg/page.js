@@ -96,8 +96,8 @@ export default function CSRESGBlog() {
 
         <figure className={styles.figure}>
           <Image
-            src="/portfolio-next/images/illustrations/csr-spend.svg"
-            alt="CSR spend comparison: Tata Steel Rs 481 crore vs Reliance Rs 1,592 crore"
+            src="/portfolio-next/images/extracted/bev/bev_page6_1.png?v=3"
+            alt="Bar chart showing CSR spending breakdown for Tata Steel with a focus on rural infrastructure and healthcare vs Reliance Industries focused heavily on centralized education and health initiatives"
             width={800}
             height={460}
           />
@@ -140,8 +140,8 @@ export default function CSRESGBlog() {
 
         <figure className={styles.figure}>
           <Image
-            src="/portfolio-next/images/illustrations/csr-emissions.svg"
-            alt="Estimated CO2e emissions: Tata Steel Jamshedpur 24.3 Mt vs Reliance Jamnagar 32.38 Mt"
+            src="/portfolio-next/images/extracted/bev/bev_page8_1.png?v=3"
+            alt="Scope 1, 2, and 3 emissions comparison between Reliance Jamnagar Refinery and Tata Steel Jamshedpur showing absolute millions of tonnes of CO2 equivalent"
             width={800}
             height={460}
           />
@@ -192,8 +192,8 @@ export default function CSRESGBlog() {
 
         <figure className={styles.figure}>
           <Image
-            src="/portfolio-next/images/illustrations/csr-social.svg"
-            alt="Social impact: Tata reaches 1.4 million lives, Reliance operates a 3,000-acre Vantara project"
+            src="/portfolio-next/images/extracted/bev/bev_page4_1.png?v=3"
+            alt="Dashboard displaying safety metrics including LTIFR (Lost Time Injury Frequency Rate) and fatalities for both Reliance and Tata Steel, highlighting contrasting reporting granularity"
             width={800}
             height={460}
           />
@@ -243,8 +243,8 @@ export default function CSRESGBlog() {
 
         <figure className={styles.figure}>
           <Image
-            src="/portfolio-next/images/illustrations/csr-governance.svg"
-            alt="Governance feedback loop: board diversity influences CSR strategy influences disclosure"
+            src="/portfolio-next/images/extracted/bev/bev_page10_1.png?v=3"
+            alt="Organizational chart mapping the board-level CSR and Sustainability committees for both companies, highlighting the direct linkage to executive compensation at Tata Steel"
             width={800}
             height={460}
           />

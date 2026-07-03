@@ -32,7 +32,7 @@ export default function SustainableFinanceBlog() {
         { value: 'Oct 2024 – Jan 2025', label: 'Term' },
         { value: '2,486 words', label: 'Length' },
       ]}
-      hero="/portfolio-next/images/finance.jpg?v=2"
+      hero="/portfolio-next/images/extracted/finance_collage.jpg?v=3"
       toc={toc}
       doc="/portfolio-next/assets/2022-5IPM-37_Manas_Pokley.pdf"
       docLabel="Download 2022-5IPM-37_Manas_Pokley.pdf"

@@ -6,9 +6,9 @@ import styles from './Header.module.css';
 
 const links = [
   { href: '/', label: 'Home' },
-  { href: '/topics', label: 'Topics' },
   { href: '/#work', label: 'Work' },
   { href: '/#about', label: 'About' },
+  { href: 'https://www.linkedin.com/in/manas-pokley/', label: 'LinkedIn' }
 ];
 
 export default function Header() {
