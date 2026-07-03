@@ -32,7 +32,7 @@ export default function SustainableFinanceBlog() {
         { value: 'Oct 2024 – Jan 2025', label: 'Term' },
         { value: '2,486 words', label: 'Length' },
       ]}
-      hero="/portfolio-next/images/illustrations/sf-hero.svg"
+      hero="/portfolio-next/images/finance.jpg?v=2"
       toc={toc}
       doc="/portfolio-next/assets/2022-5IPM-37_Manas_Pokley.pdf"
       docLabel="Download 2022-5IPM-37_Manas_Pokley.pdf"
@@ -245,7 +245,7 @@ export default function SustainableFinanceBlog() {
         <h3>Figure 1 — Night-light intensity</h3>
         <figure className={styles.figure}>
           <Image
-            src="/portfolio-next/images/illustrations/sf-nightlights.svg"
+            src="/portfolio-next/images/extracted/finance_page5_5.jpeg?v=2"
             alt="NOAA VIIRS night light intensity changes around Tata Steel Plant Jamshedpur 2015 to 2023, with intensity growing from low to high"
             width={800}
             height={460}
@@ -268,7 +268,7 @@ export default function SustainableFinanceBlog() {
         <h3>Figure 2 — Surface temperature</h3>
         <figure className={styles.figure}>
           <Image
-            src="/portfolio-next/images/illustrations/sf-temperature.svg"
+            src="/portfolio-next/images/extracted/finance_page5_6.jpeg?v=2"
             alt="MODIS land surface temperature map showing urban heat island formation around industrial zones in Jamshedpur, red indicates hottest areas"
             width={800}
             height={460}
@@ -293,7 +293,7 @@ export default function SustainableFinanceBlog() {
         <h3>Figure 3 — Land cover change</h3>
         <figure className={styles.figure}>
           <Image
-            src="/portfolio-next/images/illustrations/sf-landcover.svg"
+            src="/portfolio-next/images/extracted/finance_page5_7.jpeg?v=2"
             alt="Dynamic World land cover change map showing conversion from vegetation and cropland to built-up areas between 2015 and 2023"
             width={800}
             height={460}
@@ -314,7 +314,7 @@ export default function SustainableFinanceBlog() {
         <h3>Figure 4 — Urban expansion</h3>
         <figure className={styles.figure}>
           <Image
-            src="/portfolio-next/images/illustrations/sf-urban.svg"
+            src="/portfolio-next/images/extracted/finance_page5_8.jpeg?v=2"
             alt="Urban area expansion pattern radiating outward from the Tata Steel plant core, blue intensity indicating built-up area increase"
             width={800}
             height={460}
@@ -344,7 +344,7 @@ export default function SustainableFinanceBlog() {
         <h3>Sinusoidal fit on daytime LST</h3>
         <figure className={styles.figure}>
           <Image
-            src="/portfolio-next/images/illustrations/sf-lst-fit.svg"
+            src="/portfolio-next/images/extracted/finance_page7_1.png?v=2"
             alt="Sinusoidal fit of MODIS daytime land surface temperature near Jamshedpur Tata Steel plant from 2015 to 2023, fitted with LST of t equals LST0 plus delta LST cosine 2 pi t tau minus phi"
             width={800}
             height={460}
@@ -469,7 +469,7 @@ export default function SustainableFinanceBlog() {
         <div className={styles.avatar}>M</div>
         <div>
           <p className={styles.authorName}>Manas Pokley</p>
-          <p className={styles.authorRole}>Roll No. 2022-5IPM-37 · IPM III · Term VIII (Oct 2024 – Jan 2025)</p>
+          <p className={styles.authorRole}>Climate Finance · Industrial Policy · Remote Sensing</p>
         </div>
       </div>
     </BlogShell>

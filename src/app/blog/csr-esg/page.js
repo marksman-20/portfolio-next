@@ -377,7 +377,7 @@ export default function CSRESGBlog() {
         <div className={styles.avatar}>M</div>
         <div>
           <p className={styles.authorName}>Manas Pokley &amp; Suyash Gaikwad</p>
-          <p className={styles.authorRole}>Department of Management Studies · NALSAR</p>
+          <p className={styles.authorRole}>Climate Strategy · ESG Disclosures · India Industrial Data</p>
         </div>
       </div>
     </BlogShell>

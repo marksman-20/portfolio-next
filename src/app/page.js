@@ -55,12 +55,10 @@ const stats = [
 ];
 
 const topics = [
-  { cat: 'Climate & Energy', title: 'Bank-ready physical climate risk for India', date: '03 Jul 2026' },
-  { cat: 'Climate & Energy', title: 'S2S weather prediction and monsoon risk', date: '30 Jun 2026' },
-  { cat: 'Sustainable Finance', title: 'Second-best paths to corporate sustainability', date: '12 Jun 2026' },
-  { cat: 'Agri-finance', title: 'OU-jump SDEs for crop-stress lending signals', date: '02 Jun 2026' },
-  { cat: 'Satellite & Earth Obs.', title: 'What a Jamshedpur night-light trend really says', date: '18 May 2026' },
-  { cat: 'Policy', title: "India's green hydrogen mission — a status check", date: '04 May 2026' },
+  { cat: 'Climate Risk', title: 'SiteRisk.io: Bank-ready physical climate risk for India', date: '03 Jul 2026', slug: 'siterisk' },
+  { cat: 'Agri-finance', title: 'KharifCast: Monsoon crop advisory and SDEs for lending', date: '30 Jun 2026', slug: 'kharifcast' },
+  { cat: 'ESG & CSR', title: 'Comparative Analysis of CSR & ESG Impacts', date: '18 Jun 2026', slug: 'csr-esg' },
+  { cat: 'Sustainable Finance', title: 'Sustainable Corporate Finance — A Second-Best Path', date: '12 Jun 2026', slug: 'sustainable-finance' },
 ];
 
 export default function Home() {
