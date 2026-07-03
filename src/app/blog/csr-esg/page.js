@@ -56,7 +56,7 @@ export default function CSRESGBlog() {
       <section className={styles.downloadSection}>
         <h3 className="display" style={{marginBottom: '16px'}}>Read the Full Report</h3>
         <p style={{marginBottom: '24px', color: 'rgba(17,17,17,0.7)'}}>Download the complete presentation PDF with full datasets, source citations, and analysis frameworks.</p>
-        <a href="/assets/BEV.pdf" target="_blank" rel="noreferrer" className={styles.downloadBtn}>
+        <a href="/portfolio-next/assets/BEV.pdf" target="_blank" rel="noreferrer" className={styles.downloadBtn}>
           Download PDF Report
         </a>
       </section>

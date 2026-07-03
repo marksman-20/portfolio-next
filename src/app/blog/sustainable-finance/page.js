@@ -56,7 +56,7 @@ export default function SustainableFinanceBlog() {
       <section className={styles.downloadSection}>
         <h3 className="display" style={{marginBottom: '16px'}}>Read the Full Paper</h3>
         <p style={{marginBottom: '24px', color: 'rgba(17,17,17,0.7)'}}>Download the complete response paper containing the statistical analysis, GEE visual explanations, and methodology.</p>
-        <a href="/assets/2022-5IPM-37_Manas_Pokley.pdf" target="_blank" rel="noreferrer" className={styles.downloadBtn}>
+        <a href="/portfolio-next/assets/2022-5IPM-37_Manas_Pokley.pdf" target="_blank" rel="noreferrer" className={styles.downloadBtn}>
           Download PDF Paper
         </a>
       </section>
