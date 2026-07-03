@@ -13,6 +13,7 @@ const projects = [
       'Bank-ready physical climate risk for Indian properties — GEV + MCMC on ERA5, GloFAS and CMIP6. Built for the lending desk, not the dashboard.',
     image: '/portfolio-next/images/siterisk.jpg?v=2',
     tags: ['Climate risk', 'ERA5', 'GloFAS', 'Railway'],
+    caseStudy: '/projects/siterisk'
   },
   {
     href: 'https://kharifcast-production.up.railway.app/',
@@ -23,6 +24,7 @@ const projects = [
       'Monsoon crop advisory for agri-lenders. District-level risk scores from an OU-jump SDE ensemble, calibrated against IMD station data.',
     image: '/portfolio-next/images/kharifcast.jpg?v=2',
     tags: ['Agri-finance', 'MCMC', 'IMD', 'Railway'],
+    caseStudy: '/projects/kharifcast'
   },
   {
     href: '/blog/csr-esg',

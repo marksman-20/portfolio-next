@@ -11,6 +11,7 @@ export default function ProjectCard({
   image,
   tags = [],
   doc,
+  caseStudy,
 }) {
   const Comp = external ? 'a' : Link;
   const extra = external
@@ -42,6 +43,11 @@ export default function ProjectCard({
               <li key={t} className={styles.tag}>{t}</li>
             ))}
           </ul>
+          {caseStudy && (
+            <Link href={caseStudy} className={`mono ${styles.caseStudyLink}`}>
+              Read Case Study →
+            </Link>
+          )}
           {doc && (
             <span className={`mono ${styles.doc}`}>PDF · {doc}</span>
           )}

@@ -121,3 +121,19 @@
   color: var(--muted);
   font-size: 10px;
 }
+
+.caseStudyLink {
+  color: var(--ink);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  text-decoration: underline;
+  text-decoration-color: var(--line-strong);
+  text-underline-offset: 4px;
+  transition: color 0.2s ease, text-decoration-color 0.2s ease;
+}
+
+.caseStudyLink:hover {
+  color: var(--accent);
+  text-decoration-color: var(--accent);
+}
