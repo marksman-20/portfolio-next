@@ -32,7 +32,7 @@ export default function CSRESGBlog() {
 
         <h2 className="display">Environmental Impact (E)</h2>
         <p>
-          Emissions reduction is a critical component of both companies' ESG profiles:
+          Emissions reduction is a critical component of both companies&apos; ESG profiles:
         </p>
         <ul>
           <li><strong>Tata Steel Jamshedpur:</strong> Estimated Scope 1 and 2 emissions are around 24.3 million tons CO2, actively mitigated by initiatives like biochar use which reduces carbon emissions by over 50,000 tons annually.</li>
@@ -44,12 +44,12 @@ export default function CSRESGBlog() {
           Tata Steel supports education and health initiatives reaching over 1.4 million lives, particularly focused on tribal culture and maternal/newborn survival (e.g., in the Kolhan division, Jharkhand). 
         </p>
         <p>
-          Reliance's Vantara project in Jamnagar spans 3,000 acres, significantly enhancing biodiversity and community engagement, in addition to widespread support for schools and health crises impacting millions across Gujarat.
+          Reliance&apos;s Vantara project in Jamnagar spans 3,000 acres, significantly enhancing biodiversity and community engagement, in addition to widespread support for schools and health crises impacting millions across Gujarat.
         </p>
 
         <h2 className="display">Governance (G)</h2>
         <p>
-          Governance models differ but highlight strong progressive targets. Tata Steel's board diversity emphasizes inclusion, which directly influences their community-centric CSR. Reliance targets 15% women in its workforce by 2030, showing a complex but promising influence on their massive CSR spending patterns.
+          Governance models differ but highlight strong progressive targets. Tata Steel&apos;s board diversity emphasizes inclusion, which directly influences their community-centric CSR. Reliance targets 15% women in its workforce by 2030, showing a complex but promising influence on their massive CSR spending patterns.
         </p>
       </div>
 

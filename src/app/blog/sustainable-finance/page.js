@@ -17,14 +17,14 @@ export default function SustainableFinanceBlog() {
 
       <div className={styles.content}>
         <p>
-          In an era where the world struggles with sustainability challenges and political fragmentation, achieving a unified global corporate purpose is incredibly difficult. This paper argues that a combination of <strong>strategic green industrial policies</strong> by major economies and <strong>robust climate litigation</strong> provides the most viable "second-best" solution for advancing global sustainability.
+          In an era where the world struggles with sustainability challenges and political fragmentation, achieving a unified global corporate purpose is incredibly difficult. This paper argues that a combination of <strong>strategic green industrial policies</strong> by major economies and <strong>robust climate litigation</strong> provides the most viable &quot;second-best&quot; solution for advancing global sustainability.
         </p>
 
         <Image src="/images/finance.jpg" alt="Global satellite data visualization" width={800} height={400} className={styles.heroImage} />
 
         <h2 className="display">Green Industrial Policies as a Catalyst</h2>
         <p>
-          Unilateral green industrial policies, such as the US Inflation Reduction Act, the EU Green Deal, and India's renewable energy targets, inspire clean technology development and large-scale deployment even without perfect global coordination.
+          Unilateral green industrial policies, such as the US Inflation Reduction Act, the EU Green Deal, and India&apos;s renewable energy targets, inspire clean technology development and large-scale deployment even without perfect global coordination.
         </p>
         <p>
           While these policies can sometimes lead to trade hostilities (e.g., the EU Carbon Border Adjustment Mechanism), they provoke rapid clean tech innovation by allocating billions towards EV tax credits, renewable energy production, and green infrastructure.
@@ -49,7 +49,7 @@ export default function SustainableFinanceBlog() {
 
         <h2 className="display">Conclusion</h2>
         <p>
-          While a perfect, universally agreed-upon global sustainability framework remains elusive, a pragmatic "race to the top" is possible. By enabling large economies to drive clean tech through policy, holding corporations accountable via litigation, and using satellite data for evidence-based decision-making, we can make substantial progress within the limits of our current market mechanisms.
+          While a perfect, universally agreed-upon global sustainability framework remains elusive, a pragmatic &quot;race to the top&quot; is possible. By enabling large economies to drive clean tech through policy, holding corporations accountable via litigation, and using satellite data for evidence-based decision-making, we can make substantial progress within the limits of our current market mechanisms.
         </p>
       </div>
 

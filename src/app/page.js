@@ -19,7 +19,7 @@ export default function Home() {
         <section className={styles.hero}>
           <div className={styles.heroContent}>
             <span className={styles.eyebrow}>Portfolio & Research</span>
-            <h1 className={styles.heroTitle} className="display text-7xl">
+            <h1 className={`${styles.heroTitle} display text-7xl`}>
               Engineering sustainable systems.
             </h1>
             <p className={styles.heroSubtitle}>
@@ -29,7 +29,7 @@ export default function Home() {
         </section>
 
         <section id="work" className={styles.catalogSection}>
-          <h2 className={styles.sectionHeader} className="display">Featured Projects</h2>
+          <h2 className={`${styles.sectionHeader} display`}>Featured Projects</h2>
           <div className={styles.grid}>
             
             {/* SiteRisk */}
@@ -42,7 +42,7 @@ export default function Home() {
                   <span className={styles.tag}>API</span>
                   <span className={styles.tag}>Climate Risk</span>
                 </div>
-                <h3 className={styles.cardTitle} className="display">SiteRisk.io</h3>
+                <h3 className={`${styles.cardTitle} display`}>SiteRisk.io</h3>
                 <p className={styles.cardDescription}>Transactional API for physical climate risk assessments across India using Copernicus CDS data.</p>
               </div>
               <div className={styles.cardFooter}>
@@ -62,7 +62,7 @@ export default function Home() {
                   <span className={styles.tag}>Julia SDE</span>
                   <span className={styles.tag}>Agri-Tech</span>
                 </div>
-                <h3 className={styles.cardTitle} className="display">KharifCast</h3>
+                <h3 className={`${styles.cardTitle} display`}>KharifCast</h3>
                 <p className={styles.cardDescription}>Monsoon crop advisory model for lenders. District-level risk scores powered by IMD rainfall data.</p>
               </div>
               <div className={styles.cardFooter}>
@@ -82,7 +82,7 @@ export default function Home() {
                   <span className={styles.tag}>Research</span>
                   <span className={styles.tag}>ESG</span>
                 </div>
-                <h3 className={styles.cardTitle} className="display">CSR vs ESG Impacts</h3>
+                <h3 className={`${styles.cardTitle} display`}>CSR vs ESG Impacts</h3>
                 <p className={styles.cardDescription}>Comparative analysis of Tata Steel and Reliance Jamnagar. Evaluates emissions and social impact.</p>
               </div>
               <div className={styles.cardFooter}>
@@ -102,7 +102,7 @@ export default function Home() {
                   <span className={styles.tag}>Satellite</span>
                   <span className={styles.tag}>Policy</span>
                 </div>
-                <h3 className={styles.cardTitle} className="display">Sustainable Corporate Finance</h3>
+                <h3 className={`${styles.cardTitle} display`}>Sustainable Corporate Finance</h3>
                 <p className={styles.cardDescription}>Response paper exploring green industrial policies, climate litigation, and Google Earth Engine satellite accountability.</p>
               </div>
               <div className={styles.cardFooter}>
